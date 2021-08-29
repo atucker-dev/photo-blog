@@ -1,8 +1,8 @@
 +++
-title = 'Ante mattis interdum dolor - Versión Español'
+title = 'Prueba de la segunda publicación - Versión Español'
 slug = 'post2'
 image = 'images/pic04.jpg'
-date = "2019-04-18T00:00:00"
-description = 'Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.'
+date = "2021-08-26T13:00:00"
+description = 'Prueba de la segunda publicación'
 disableComments = true
 +++

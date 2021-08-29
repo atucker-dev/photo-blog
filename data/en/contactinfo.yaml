@@ -1,9 +1,9 @@
 contactformaction: 'post-action'
 
 address:
-- line: '1234 Somewhere Road #87257'
-- line: 'Nashville, TN 00000-0000'
+- line: '1234 Somewhere Road'
+- line: 'Phoenix, AZ 00000-0000'
 
-phone: '(800) 000-0000'
+phone: '(800) 123-4567'
 
-email: 'someone@untitled.tld'
+email: 'actkant@gmail.com'

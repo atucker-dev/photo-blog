@@ -1,31 +1,28 @@
 languageCode = "en-us"
-title = "Massively"
+title = "Jim's Photo Blog"
 baseURL = "http://localhost:1313/"
 theme = "massively"
 googleanalytics = ""
 disqusShortname = ""
 disableKinds = ["taxonomy", "taxonomyTerm", "section"]
 
-# [params]
+ [params]
   # set below parameter to define a favicon
-  # favicon = "favicon.ico"
+  favicon = "jt-favicon.ico"
   # set to change date format
   # dateFormat = "2.1.2006"
 
 # Below parameters can be set to override default post settings
-# [params.posts]
-#     folderName = "post"
-#     pageSize = "6"
-#     featuredPost = true
-#     paginationPages = 2
-#     showFirstLast = false
+[params.posts]
+     folderName = "post"
+     pageSize = "4"
+     featuredPost = true
+     paginationPages = 5
+     showFirstLast = true
  
 [languages]
 [languages.en]
   languageName = "English"
 [languages.es]
   languageName = "Español"
-  title = "Massively - Versión Español"
-#[languages.fr]
-#  languageName = "Français"
-#  title = "Massively - Version Française"
+  title = "Jim's Foto Blog - Versión Español"
