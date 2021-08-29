@@ -1,14 +1,12 @@
 +++
-title = 'First Test Post'
-date = "2021-08-25T13:00:00"
-slug = 'post1'
-image = 'images/pic03.jpg'
-description = 'First test post description'
+title = 'St. Louis Cardinals Game in AZ!'
+date = "2021-08-29T09:30:00"
+slug = 'stl-game'
+image = 'images/az-baseball-game.jpg'
+description = 'Cardinals vs Diamondbacks at Chase Field'
 disableComments = false
 +++
 
-## Test Post Header
+### Us at the Game
 
-Test Post Content
-- test1
-- test2
+![Photo]()
