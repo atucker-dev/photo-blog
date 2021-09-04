@@ -1,0 +1,30 @@
+<!-- Nav -->
+{{ $data := index .Site.Data .Site.Language.Lang }}
+<nav id="nav">
+    <ul class="links">
+        <li class="active"><a href='{{ "/" | relLangURL }}'>{{ .Site.Title }}</a></li>
+        {{ with $data.contactinfo }}
+        <li><a href='{{ "#footer" | relLangURL }}'>{{ i18n "NAV_CONTACT" . }}</a></li>
+        <li><a href='{{ "/about | relLangURL }}'>{{ i18n "NAV_ABOUT" . }}</a></li>
+        <li><a href='{{ "/markdown" | relLangURL }}'>{{ i18n "NAV_MARKDOWN" . }}</a></li>
+        {{ end }}
+        {{ if .IsTranslated }}
+        {{ range .AllTranslations }}
+        <li {{if eq ($.Site.Language) (.Language)}}class="active"{{end}}><a href='{{ .Permalink }}'>{{ .Language.LanguageName }}</a></li>
+        {{ end }}
+        {{ end }}
+    </ul>
+    {{ with $data.social }}
+    <ul class="icons">
+        {{ with .linkedin }}
+        <li><a href="{{ . }}" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+        {{ end }}
+        {{ with .youtube }}
+        <li><a href="{{ . }}" class="icon fa-youtube"><span class="label">Youtube</span></a></li>
+        {{ end }}
+        {{ with .flickr }}
+        <li><a href="{{ . }}" class="icon fa-flickr"><span class="label">Flickr</span></a></li>
+        {{ end }}
+    </ul>
+    {{ end }}
+</nav>
