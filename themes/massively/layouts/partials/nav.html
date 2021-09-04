@@ -4,8 +4,8 @@
     <ul class="links">
         <li class="active"><a href='{{ "/" | relLangURL }}'>{{ .Site.Title }}</a></li>
         {{ with $data.contactinfo }}
+        <li><a href='{{ "/about" | relLangURL }}'>{{ i18n "NAV_ABOUT" . }}</a></li>
         <li><a href='{{ "#footer" | relLangURL }}'>{{ i18n "NAV_CONTACT" . }}</a></li>
-        <li><a href='{{ "/about | relLangURL }}'>{{ i18n "NAV_ABOUT" . }}</a></li>
         <li><a href='{{ "/markdown" | relLangURL }}'>{{ i18n "NAV_MARKDOWN" . }}</a></li>
         {{ end }}
         {{ if .IsTranslated }}

@@ -22,8 +22,12 @@
   other = "Continue"
 [NAV_MENU]
   other = "Menu"
+[NAV_ABOUT]
+  other = "About"
 [NAV_CONTACT]
   other = "Contact"
+[NAV_MARKDOWN]
+  other = "Markdown"
 [PAGINATION_NEXT]
   other = "Next"
 [PAGINATION_PREVIOUS]
