@@ -1,5 +1,5 @@
 +++
-title = 'St. Louis Cardinals Game in AZ!'
+title = 'St. Louis Cardinals Game!'
 date = "2021-08-29T09:30:00"
 slug = 'stl-game'
 image = 'images/az-baseball-game.jpg'

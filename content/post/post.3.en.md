@@ -8,6 +8,8 @@ description = 'Trip back to Barrett Jackson collector car auction after a bit of
 
 ### More Barrett Jackson Photos!
 
+
+
 ![Photo](/images/barrett-jackson02.jpg)
 
 ![Photo](/images/barrett-jackson03.jpg)
