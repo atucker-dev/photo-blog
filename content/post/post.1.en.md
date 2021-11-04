@@ -7,6 +7,11 @@ description = 'Cardinals vs Diamondbacks at Chase Field'
 disableComments = false
 +++
 
-### Us at the Game
+---
 
-![Photo]()
+## Test Header
+<!-- ![image](../../images/us-az-baseball-game.jpg) -->
+
+<img src="../../images/us-az-baseball-game.jpg" style="height:300px; width:300px;"/>
+
+---
